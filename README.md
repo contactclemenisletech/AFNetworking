@@ -6,7 +6,7 @@ As of Jan. 17, 2023, AFNetworking is deprecated and there will be no further rel
 2. Fork AFNetworking and use the fork in your dependency manager. There will be no official forks but anyone can fork at any time and can even publish those forks under a different name, in accordance with AFNetworking's license.
 
 Moving forward, Alamofire is the suggested migration path for networking in modern Swift. Anyone who needs help making that migration is welcome to ask on [StackOverflow](https://stackoverflow.com) and tag `alamofire` and `afnetworking`, or open a discussion on Alamofire's [GitHub Discussions](https://github.com/Alamofire/Alamofire/discussions) regarding any migration issues or missing features.
-upcreditbegin:fyinformation.cc:upcreditend
+
 ---
 
 <p align="center" >
@@ -230,7 +230,8 @@ NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
 ```
 
     POST http://example.com/
-    Content-Type: application/x-www-form-urlencoded
+    Content-Type: application/x-www-form-urlencoded<img width="988" height="110" alt="image" src="https://github.com/user-attachments/assets/fb3bc760-7d5c-4c6f-81e5-3533cfa178c1" /><img width="988" height="110" alt="image" src="https://github.com/user-attachments/assets/1feb5583-ac54-4f37-ad9e-87c18c8d922f" />
+<img width="988" height="110" alt="image" src="https://github.com/user-attachments/assets/42630bac-3c7e-45cc-b6ae-5cde9950de8c" />
 
     foo=bar&baz[]=1&baz[]=2&baz[]=3
 
